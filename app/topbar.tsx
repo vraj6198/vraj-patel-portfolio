@@ -45,7 +45,7 @@ export function Topbar({ page = 'home' }: { page?: 'home' | 'blog' }) {
 
   return <header className="topbar">
     <div className="topbar-inner wrap">
-      <a className="wordmark" href={page === 'home' ? '#main' : '/'} aria-label="Vraj Patel home">vp<span>.</span></a>
+      <a className="wordmark" href={page === 'home' ? '#main' : '/'} aria-label="Vraj Patel home">Vraj</a>
       <nav className="topbar-pages" aria-label="Main navigation">
         {sections.map(([id, label]) => <a key={id} href={`${page === 'home' ? '' : '/'}#${id}`} onClick={(event) => handleSectionClick(event, id)} aria-current={page === 'home' && active === id ? 'location' : undefined}>{label}</a>)}
         <a href="/blog/" aria-current={page === 'blog' ? 'page' : undefined}>Blog</a>
