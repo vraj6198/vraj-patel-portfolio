@@ -36,4 +36,4 @@ Create a production build with:
 pnpm run build
 ```
 
-Live site: [vraj6198.github.io/vraj-patel-portfolio](https://vraj6198.github.io/vraj-patel-portfolio/)
+
